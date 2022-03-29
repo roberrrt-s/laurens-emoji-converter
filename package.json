@@ -1,0 +1,22 @@
+{
+  "name": "laurens-emoji-converter",
+  "version": "1.0.0",
+  "description": "voor laurens want het is leuk",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "emoji",
+    "converter"
+  ],
+  "author": "Robert Spier",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "emoji-from-text": "^1.1.12",
+    "node-emoji": "^1.11.0",
+    "translate": "^1.4.1"
+  }
+}
