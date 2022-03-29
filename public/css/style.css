@@ -13,11 +13,29 @@ form {
 	margin-top: 1em;
 }
 
-form input {
+form input,
+button {
 	margin-top: 1em;
 	margin-right: auto;
 }
 
 textarea {
 	min-height: 30vh;
+}
+
+#result {
+	background: white;
+}
+
+#result.confirm {
+	animation: fadeOut .5s ease-out;
+}
+
+@keyframes fadeOut {
+	0% {
+		background: #bbb;
+	},
+	100% {
+		background: white;
+	}
 }

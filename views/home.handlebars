@@ -7,12 +7,11 @@
 
 {{#if data}}
 	<form>
-		<textarea>{{{data}}}</textarea>
+		<textarea id="result">{{{data}}}</textarea>
 	</form>
+	<button id="copy-button">Copy to clipboard</button>
 {{else if error}}
 	<h1>{{error}}</h1>
 {{else}}
-	<form>
-		<textarea></textarea>
-	</form>
+
 {{/if}}
