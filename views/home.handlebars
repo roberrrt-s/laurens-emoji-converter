@@ -1,0 +1,18 @@
+<h1>Laurens Emoji Converter</h1>
+
+<form enctype="application/x-www-form-urlencoded" action="/" method="post">
+	<textarea name="content" id="test"></textarea>
+	<input type="submit" />
+</form>
+
+{{#if data}}
+	<form>
+		<textarea>{{{data}}}</textarea>
+	</form>
+{{else if error}}
+	<h1>{{error}}</h1>
+{{else}}
+	<form>
+		<textarea></textarea>
+	</form>
+{{/if}}

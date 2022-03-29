@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "keywords": [
@@ -14,9 +15,16 @@
   "author": "Robert Spier",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "dotenv": "^16.0.0",
     "emoji-from-text": "^1.1.12",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-validator": "^6.14.0",
     "node-emoji": "^1.11.0",
     "translate": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
